@@ -4,6 +4,8 @@ function factorial(n) {
 }
 
 function e(n) {
-    if(n === 0) return 1;
-    else return 1.0 / factorial(n) + e(n - 1);
+    let prev = 1;
+    while(prev < n){
+    let next = 1.0/(1 + prev) + e(prev)
+    }
 }
