@@ -4,9 +4,11 @@ function factorial(n) {
 }
 
 function e(n) {
-    let prev = 1;
-    while(prev < n){
-    let next = 1.0/(1 + prev) + e(prev)
-        prev++;
+    let fact = 1;
+    let result = 1;
+    for(let k = 1; k < n; k++){
+        fact = k * (k-1);
+        result = 1/fact + result
+        
     }
 }
