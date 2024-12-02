@@ -6,9 +6,9 @@ function factorial(n) {
 function e(n) {
     let fact = 1;
     let result = 1;
-    for(let k = 1; k < n; k++){
-        fact = k * (k-1);
-        result = 1/fact + result
+    for(let k = 1; k <= n; k++){
+        fact = k * fact;
+        result = result + (1/fact);
     }
     return result;
 }
