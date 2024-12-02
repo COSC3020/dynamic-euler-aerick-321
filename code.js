@@ -4,10 +4,10 @@ function factorial(n) {
 }
 
 function e(n) {
-    let k = 1;
+    let k = 0;
     let fact = 1;
     let result = 1;
-    while( k <= n;){
+    while( k < n){
         k++;
         fact = k * fact;
         result = result + (1/fact);
