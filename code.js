@@ -4,7 +4,7 @@ function factorial(n) {
 }
 
 function e(n) {
-    let k = 0;
+    let k = 1;
     let fact = 1;
     let result = 1;
     while( k <= n;){
