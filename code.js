@@ -9,6 +9,6 @@ function e(n) {
     for(let k = 1; k < n; k++){
         fact = k * (k-1);
         result = 1/fact + result
-        
     }
+    return result;
 }
